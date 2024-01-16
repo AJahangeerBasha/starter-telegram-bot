@@ -1,14 +1,15 @@
 {
   "scripts": {
-    "start": "node tele.js",
-    "dev": "env-cmd nodemon tele.js",
-    "local": "nodemon tele.js",
+    "start": "node grammy.js",
+    "dev": "env-cmd node grammy.js",
+    "local": "nodemon grammy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
   "dependencies": {
+    "grammy": "^1.20.3",
     "node-telegram-bot-api": "^0.64.0"
   }
 }
